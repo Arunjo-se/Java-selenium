@@ -2,6 +2,7 @@ package testcase1;
 
 import org.testng.annotations.Test;
 
+import path.DashboardPath;
 import path.loginPath;
 
 import org.testng.annotations.BeforeMethod;
@@ -19,13 +20,22 @@ public class orageHRMLoginpage {
 
 	WebDriver driver = new ChromeDriver();
 	loginPath loginPath = new loginPath(driver);
-
+	DashboardPath DashboardPath = new DashboardPath(driver);
+	
 	@Test
-	public void f() {
+	public void f()  {
 
 		loginPath.loginApplication("Admin", "admin123");
 
 	}
+	@Test
+	public void f1() throws InterruptedException {
+
+		DashboardPath.titleTest("OrangeHRM");
+		DashboardPath.textCheck("Dashboard");
+	}
+	
+	
 
 	@BeforeMethod
 	public void beforeMethod() {
@@ -61,7 +71,17 @@ public class orageHRMLoginpage {
 	@AfterSuite
 	public void afterSuite() {
 
-		 driver.quit();
+		// driver.quit();
 	}
+	
+	@Test
+	public void f11() throws InterruptedException {
+
+		DashboardPath.titleTest("OrangeHRM");
+		DashboardPath.textCheck("Dashboard");
+	}
+	
 
 }
+
+// sgjrthsjhrtighwrighwr

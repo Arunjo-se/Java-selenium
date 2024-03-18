@@ -20,7 +20,6 @@ public class loginPath extends Setup {
 	}
 
 	
-	
 //	WebElement adminEmail = driver.findElement(By.name("username"));
 
 	//----------- pageFactory---------
@@ -32,7 +31,6 @@ public class loginPath extends Setup {
 	By username = By.name("username");
 	
 	
-
 	@FindBy(name = "password")   	//By passwordElement = By.name("password");
 	WebElement passwordElement;
 	
@@ -40,20 +38,18 @@ public class loginPath extends Setup {
 	@FindBy(xpath = "/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")
 	WebElement login;
 
-	public void loginApplication(String enterUsername, String enterPassword)
+	public void loginApplication(String enterUsername, String enterPassword) 
 	{
 		Setup setup = new Setup(driver);
-		
 		setup.waitforElement(username);
+		
 		driver.findElement(username).sendKeys(enterUsername);
-
-		
-
-		
+	
 		passwordElement.sendKeys(enterPassword);
-		//driver.findElement(passwordElement).sendKeys(password);
 		
 		login.click();
+		
+		
 	}
 
 }
