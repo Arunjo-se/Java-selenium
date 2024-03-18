@@ -74,10 +74,7 @@ public class orageHRMLoginpage {
 		 driver.quit();
 	}
 	
-// testingggggggggggg
-	
-	// testing 2
-	
+
 
 }
 
