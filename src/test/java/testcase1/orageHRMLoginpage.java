@@ -71,17 +71,12 @@ public class orageHRMLoginpage {
 	@AfterSuite
 	public void afterSuite() {
 
-		// driver.quit();
+		 driver.quit();
 	}
 	
-	@Test
-	public void f11() throws InterruptedException {
 
-		DashboardPath.titleTest("OrangeHRM");
-		DashboardPath.textCheck("Dashboard");
-	}
 	
 
 }
 
-// sgjrthsjhrtighwrighwr
+
