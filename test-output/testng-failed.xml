@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Reallifeexamples.logandfp">
+      <class name="Reallifeexamples.AutoSuggestive">
         <methods>
-          <include name="L"/>
-          <include name="F"/>
+          <include name="f1"/>
         </methods>
-      </class> <!-- Reallifeexamples.logandfp -->
+      </class> <!-- Reallifeexamples.AutoSuggestive -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
