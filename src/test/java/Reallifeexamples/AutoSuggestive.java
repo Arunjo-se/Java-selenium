@@ -1,13 +1,9 @@
 package Reallifeexamples;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
-
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AutoSuggestive {
@@ -15,7 +11,6 @@ public class AutoSuggestive {
 	public static void main(String[] args) throws InterruptedException {
 
 // TODO Auto-generated method stub
-
 
 		WebDriver driver = new ChromeDriver();
 
@@ -34,7 +29,6 @@ public class AutoSuggestive {
 			if (option.getText().equalsIgnoreCase("India"))
 
 			{
-
 				option.click();
 
 				break;
