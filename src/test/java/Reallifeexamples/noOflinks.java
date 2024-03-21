@@ -1,4 +1,4 @@
-package testcase1;
+package Reallifeexamples;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import path.loginPath;
 
-public class realtimeCases {
+public class noOflinks {
 
 	WebDriver driver = new ChromeDriver();
 	loginPath loginPath = new loginPath(driver);
