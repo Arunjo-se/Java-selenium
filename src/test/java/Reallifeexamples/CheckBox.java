@@ -19,7 +19,7 @@ public class CheckBox {
 		System.out.println(
 				driver.findElement(By.xpath("//input[@id=\"ctl00_mainContent_chk_friendsandfamily\"]")).isSelected());
 
-		// isSelected is used to understand the checkbox selected or
+		// isSelected is used to understand the checkbox selected or not
 
 	}
 }
