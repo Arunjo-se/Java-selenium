@@ -45,6 +45,8 @@ public class noOflinks {
 			System.out.println(leftside1.getText());
 
 		}
+		
+		driver.quit();
 
 	}
 }
