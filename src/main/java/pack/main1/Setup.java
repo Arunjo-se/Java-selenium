@@ -1,4 +1,4 @@
-package main1;
+package pack.main1;
 
 import java.time.Duration;
 

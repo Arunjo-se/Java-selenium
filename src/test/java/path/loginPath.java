@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import main1.Setup;
+import pack.main1.Setup;
 
 public class loginPath extends Setup {
 

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import main1.Setup;
+import pack.main1.Setup;
 
 public class DashboardPath extends Setup {
 
